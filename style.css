@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .personal{
+    text-align: center;
+    background: pink;
+    height: 500px;
+    color: #fff;
+    padding: 50px;
+  }
+  .personal h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+  .personal h2{
+    font-size: 32px;
+    padding-bottom: 10px;
+  }
+  .personal p{
+    font-size: 20px;
+    padding-bottom: 10px;
+  
