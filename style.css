@@ -1,23 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+}
 *{
-    margin: 0;
-    padding: 0;
-  }
-  .personal{
-    text-align: center;
-    background: pink;
-    height: 500px;
-    color: #fff;
-    padding: 50px;
-  }
-  .personal h1{
-    font-size: 50px;
-    padding-bottom: 10px;
-  }
-  .personal h2{
-    font-size: 32px;
-    padding-bottom: 10px;
-  }
-  .personal p{
-    font-size: 20px;
-    padding-bottom: 10px;
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header{
+  background: #333333;
+  overflow: auto;
+}
+.logo{
+    float: left;
+    padding-top: 18px;
+    padding-left: 18px;
+}
+.logo h1{
+  color:#fff;
+  font-size: 28px;
+}
+.logo h1 i{
+  padding-right: 5px;
+  color:#D68B4A;
+}
+nav{
+ float: right;
+}
+nav ul.navbar{
+  list-style: none;
+}
+nav ul.navbar li{
+  float: left;
+}
+nav ul.navbar li a{
+  color: #fff;
+  text-decoration: none;
+  display:block;
+  padding: 25px 20px;
+  font-size: 18px;
+}
+nav ul.navbar li a:hover, nav ul.navbar li.active a{
+  color:#D68B4A;
+  background: #444444;
+}
+#hero{
+  text-align: center;
+  background: url('../img/room.jpg') no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height:  600px;
+  padding: 170px;
+}
+#hero .hero-heading{
+  font-size: 66px;
+  color: #fff;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+#hero .enjoy{
+  color: #D68B4A;
+}
+#hero p{
+  font-size: 20px;
+  color: #fff;
+  padding-bottom: 30px;
+}
+#hero .about-hotel{
+  text-decoration: none;
+  color: #D68B4A;
+  padding: 13px 20px;
+  background: #fff;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 10px;
+}
+#hero .about-hotel:hover{
+   background: #D68B4A;
+   color: #fff;
+   border-radius: 10px;
+}
